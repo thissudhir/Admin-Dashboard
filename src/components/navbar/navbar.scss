@@ -1,0 +1,47 @@
+@import '/src/style/variable.scss';
+.navbar{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .notification{
+            position: relative;
+
+            span{
+                background-color: red;
+                height: 16px;
+                width: 16px;
+                border-radius: 50%;
+                color: white;
+                top: -10px;
+                right: -10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                font-size: 12px;
+            }
+        }
+
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            img{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+}

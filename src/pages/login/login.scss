@@ -1,0 +1,79 @@
+@import '/src/style/variable.scss';
+.login{
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    .sidebar{
+        h1{
+            font-size: 48px;
+        }
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        flex: 2;
+        background-color: black;
+        color: white;
+        height: 100vh;
+    }
+    .auth{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: $bg-color;
+        flex: 4;
+        justify-content: center;
+        height: 100vh;
+
+        .localTag{
+            display: flex;
+            flex-direction: row;
+
+            span{
+                padding: 5px;
+                background-color: #ffffff;
+                margin: 5px;
+                border-radius: 5px;
+                font-size: 12px;
+                cursor: pointer;
+                
+            }
+        }
+        
+        form{margin-top: 10px;
+            background-color: #ffffff;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            padding: 20px;
+            input{
+                padding: 10px;
+                border-radius: 8px;
+                margin: 10px;
+                border: none;
+                outline: none;
+                background-color: #f1eded;
+            }
+            .link{
+                text-decoration: none;
+            }
+            button{
+                background-color: black;
+                padding: 10px;
+                border-radius: 8px;
+                border: none;
+                outline: none;
+                color: white;
+                margin: 10px;
+                cursor: pointer;
+            }
+        }
+        p{
+            font-size: 12px;
+            margin-top: 20px;
+        }
+    }
+    
+}

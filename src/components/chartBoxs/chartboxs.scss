@@ -1,0 +1,17 @@
+.chartBox{
+    // display: flex;
+    height: 100%;
+
+    .icon{
+        display: flex;
+        // align-items: end;
+        flex-direction: row-reverse;
+    }
+    .boxInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        
+    }
+}
